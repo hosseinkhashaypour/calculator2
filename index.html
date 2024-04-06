@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTENDMENTOR | CALC</title>
+</head>
+
+<body>
+    <div id="form">
+        <form name="form1">
+            <div class="keys">
+            <input type="text" id="calc" name="answer">
+            <br><br>
+            <input type="button" value="7" onclick="addanswer('7')" class="center">
+            <input type="button" value="8" onclick="addanswer('8')" class="center">
+            <input type="button" value="9" onclick="addanswer('9')" class="center">
+            <input type="button" value="DEL" onclick="delbtn()" class="lastbtn"
+                style="background-color: blue; color: white;">
+            <br><br>
+            <input type="button" value="4" onclick="addanswer('4')" class="center">
+            <input type="button" value="5" onclick="addanswer('5')" class="center">
+            <input type="button" value="6" onclick="addanswer('6')" class="center">
+            <input type="button" value="+" onclick="addanswer('+')" class="lastbtn"
+                style="background-color: greenyellow;color: white;">
+            <br><br>
+            <input type="button" value="1" onclick="addanswer('1')" class="center">
+            <input type="button" value="2" onclick="addanswer('2')" class="center">
+            <input type="button" value="3" onclick="addanswer('3')" class="center">
+            <input type="button" value="-" onclick="addanswer('-')" class="lastbtn">
+            <br><br>
+            <input type="button" value="." onclick="addanswer('.')" class="center">
+            <input type="button" value="0" onclick="addanswer('0')" class="center">
+            <input type="button" value="/" onclick="addanswer('/')" class="center">
+            <input type="button" value="x" onclick="addanswer('*')" class="lastbtn">
+            <br><br>
+            <input type="button" value="=" onclick = "evalbtn()" class="result">
+        </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
